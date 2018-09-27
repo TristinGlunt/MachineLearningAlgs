@@ -211,12 +211,3 @@ def build_variable_matrix_tables(data, current_feature, list_of_classes, class_t
         counter += 1
 
     return variable_matrix_real, variable_matrix_expected
-
-
-
-matrix = []
-for i in range(0, 20):
-    bar = [laplaz for col in range(listOfFeatures)]
-    matrix.append(bar)
-
--> matrix = [[laplaz for col in range(listOfFeatures) for rows in range(lenOfRows)]]
